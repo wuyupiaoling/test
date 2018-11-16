@@ -51,7 +51,7 @@ uint32_t LP_130_CalReportConut(void);
   *          - SUCCESS : RTC Wakeup Unit is enabled/disabled
   *          - ERROR    : RTC Wakeup Unit is not enabled/disabled
   */
-ErrorStatus RTC_WakeUpCmd(FunctionalState NewState)
+ErrorStatus RTC_WakeUpCmd(FunctionalState  )
 {
   ErrorStatus status = ERROR;
   uint16_t wutwfcount = 0;
